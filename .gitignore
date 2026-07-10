@@ -1,0 +1,11 @@
+# 1. Ignorovat vsechny soubory, ktere nemaji priponu (binarky)
+*
+!*/
+!*.*
+
+# 2. Explicitne ignorovat soubor a.out
+a.out
+
+# 3. Znovu povolit dulezite soubory bez pripony (napr. Makefile)
+!Makefile
+!README
