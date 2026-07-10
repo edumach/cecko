@@ -1,0 +1,4 @@
+Ahoj kolego,
+jazyk C to je ono!
+
+K&R
