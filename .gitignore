@@ -12,3 +12,8 @@
 
 # 5. Ignorovat a.out v jakemkoliv adresari
 **/a.out
+
+# 6. Ignorovat specificke binarni a docasne soubory pro Windows
+**/*.o
+**/*.exe
+
