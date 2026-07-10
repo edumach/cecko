@@ -1,11 +1,14 @@
-# 1. Ignorovat vsechny soubory, ktere nemaji priponu (binarky)
+# 1. Ignorovat uplne vse
 *
+
+# 2. Povolit adresare, aby Git mohl prochazet strukturu projektu
 !*/
+
+# 3. Povolit vsechny soubory, ktere maji tecku v nazvu (zdrojaky, hlavicky, makefily, configy)
 !*.*
 
-# 2. Explicitne ignorovat soubor a.out
-a.out
-
-# 3. Znovu povolit dulezite soubory bez pripony (napr. Makefile)
+# 4. Povolit konkretni soubory bez pripony, ktere chceme sledovat (napr. Makefile)
 !Makefile
-!README
+
+# 5. Ignorovat a.out v jakemkoliv adresari
+**/a.out
