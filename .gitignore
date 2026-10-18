@@ -17,3 +17,6 @@
 **/*.o
 **/*.exe
 
+# 7. vyloucit systemove soubory
+.DS_Store
+deskop.ini
